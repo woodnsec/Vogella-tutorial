@@ -43,6 +43,6 @@ public class activity_create_user extends AppCompatActivity {
         }
 
 
-        Toast.makeText(this, "gender=" + gender + " User " + string + " created", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, gender + " user " + string + " created", Toast.LENGTH_LONG).show();
     }
 }
